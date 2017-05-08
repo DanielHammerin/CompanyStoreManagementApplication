@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewBag.Title = "Companies";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Companies</h2>
+
+<body>
+    <div class="container">
+        <div class="navbar-header">
+            <ul class="nav navbar-nav">
+                <li>@Html.ActionLink("View", "ViewCompanies", "Home")</li>
+                <li>@Html.ActionLink("Create", "CreateCompany", "Home")</li>
+                <li>@Html.ActionLink("Update", "UpdateCompany", "Home")</li>
+                <li>@Html.ActionLink("Delete", "DeleteCompany", "Home")</li>
+            </ul>
+        </div>
+
+        <div class="content">
+            
+        </div>
+    </div>
+</body>
